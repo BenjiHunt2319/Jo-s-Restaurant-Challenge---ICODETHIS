@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- custom styles -->
+    <!-- Tailwind CSS -->
+    <!-- <script src="https://cdn.tailwindcss.com"></script> -->
+
+    <!-- Google Icons -->
+    <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,1,0" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+
+    <!-- jQuery -->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.4/jquery.min.js"></script>
+
+    <title>Jo's Burgers</title>
+</head>
+
+<body>
+    <!-- main navbar -->
+    <nav class="main-nav">
+        <h1 class="nav-title">JO'S <span class="nav-title-copy">&copy;</span></h1>
+
+        <ul class="top-menu">
+            <button id="close-menu" class="material-symbols-outlined">close</button>
+
+            <li><a href="#about" data-target="about">ABOUT</a></li>
+            <li><a href="#menu" data-target="menu">MENU</a></li>
+            <li><a href="#reviews" data-target="reviews">REVIEWS</a></li>
+            <li><a href="#social" data-target="social">SOCIAL</a></li>
+        </ul>
+
+        <button id="open-menu" class="material-symbols-outlined">menu</button>
+    </nav>
+
+    <!-- main container -->
+    <main>
+        <!-- hero -->
+        <section class="hero">
+
+            <section class="hero-text">
+                <h1 class="main-title">
+                    NEW YORK'S <br>
+                    FAVORITE <br>
+                    BURGER
+                </h1>
+                <p class="main-info">The most delicous burgers you will ever feast your eyes on are here at Jo's
+                    Burgers. </p>
+
+                <button class="main-btn"><a href="#menu" data-target="menu">BROWSE MENU</a></button>
+            </section>
+            <section class="hero-img">
+                <img src="/images/jos_burger/burger_1.jpg" alt="">
+            </section>
+        </section>
+
+        <!-- about -->
+        <section class="about" id="about">
+            <section class="about-inner">
+                <h1 class="about-title title">HI, WE'RE JO'S BURGERS, A COLLECTIVE OF CREATORS WHO LOVE BURGERS AND GOOD
+                    MOODS.</h1>
+
+                <div class="about-img-container">
+                    <img src="/images/jos_burger/creator.jpeg" alt="" class="about-img">
+                    <p class="about-info">This is Jo. He started everything 40 years ago.</p>
+                </div>
+            </section>
+        </section>
+
+        <!-- we are different -->
+        <div class="banner" id="banner">
+            <h1 class="title">
+                WE ARE DIFFERENT
+
+                <button class="material-symbols-outlined banner-btn" disabled>play_arrow</button>
+            </h1>
+        </div>
+
+        <!-- menu -->
+        <div class="menu" id="menu">
+            <section class="menu-inner">
+                <h1 class="title">OUR BURGERS</h1>
+                <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Tenetur repellendus facilis
+                    perferendis quae. Nemo dolores iste fugiat perferendis, laudantium doloremque!</p>
+
+                <div class="menu-items">
+                    <div class="menu-item">
+                        <img src="/images/jos_burger/burger_1.jpg" alt="" class="menu-item-image">
+                        <h3 class="menu-item-title">SHRIMP YOP!</h3>
+                        <p class="menu-item-desc">Grilled shrimp burger with coleslaw in a homemade fluffy bun.</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="/images/jos_burger/burger_2.jpg" alt="" class="menu-item-image">
+                        <h3 class="menu-item-title">DOUBLE TROUBLE</h3>
+                        <p class="menu-item-desc">Angus Beef burger with Gouda cheese and bacon in a sesame bun.</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="/images/jos_burger/burger_3.jpg" alt="" class="menu-item-image">
+                        <h3 class="menu-item-title">JUICY JO</h3>
+                        <p class="menu-item-desc">Beef Burger with fried onion toped with radu sauce in a rye bun.</p>
+                    </div>
+                    <div class="menu-item">
+                        <img src="/images/jos_burger/burger_4.jpg" alt="" class="menu-item-image">
+                        <h3 class="menu-item-title">CRISPY CHI</h3>
+                        <p class="menu-item-desc">Cripsy Chicken burger with our signiture Chi Sauce.</p>
+                    </div>
+                </div>
+            </section>
+        </div>
+
+        <!-- reviews -->
+        <div class="reviews" id="reviews">
+            <div class="inner-reviews">
+                <h1 class="title">SOME REVIEWS</h1>
+                <p class="info">Lorem ipsum dolor sit amet consectetur adipisicing elit. Eligendi deleniti hic ipsam
+                    tempora, eaque laborum ea quia?</p>
+
+                <div class="review-container">
+
+                    <div class="review-item">
+                        <img src="https://images.unsplash.com/photo-1580489944761-15a19d654956?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NTF8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                        <div class="review-details">
+                            <h3 class="review-name">VLAS CRESITEA</h3>
+                            <p class="review-comment">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Ullam
+                                assumenda, quas commodi exercitationem dolores repudiandae!</p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <img src="https://images.unsplash.com/photo-1573496359142-b8d87734a5a2?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NDB8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                        <div class="review-details">
+                            <h3 class="review-name">ANDREEA @EATTWICE</h3>
+                            <p class="review-comment">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Soluta
+                                ipsa totam officia dolores blanditiis debitis, similique doloremque, saepe sunt,
+                                repellat excepturi deserunt? Fugit, nam harum.</p>
+                        </div>
+                    </div>
+
+                    <div class="review-item">
+                        <img src="https://images.unsplash.com/photo-1488426862026-3ee34a7d66df?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MzF8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                        <div class="review-details">
+                            <h3 class="review-name">MATHEW EATS ALL</h3>
+                            <p class="review-comment">Lorem ipsum dolor, sit amet consectetur adipisicing.</p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <img src="https://images.unsplash.com/photo-1524504388940-b1c1722653e1?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTR8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                        <div class="review-details">
+                            <h3 class="review-name">JESSICA FROM EATER.COM</h3>
+                            <p class="review-comment">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Tempore
+                                vel dolorum amet!</p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <img src="https://images.unsplash.com/photo-1529626455594-4ff0802cfb7e?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8Mjd8fHBlb3BsZXxlbnwwfHwwfHx8MA%3D%3D" alt="">
+                        <div class="review-details">
+                            <h3 class="review-name">JUST MARIA</h3>
+                            <p class="review-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Facilis
+                                culpa impedit nihil aliquam incidunt dignissimos corrupti obcaecati voluptatum qui.</p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <img src="https://images.unsplash.com/photo-1517841905240-472988babdf9?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8OHx8cGVvcGxlfGVufDB8fDB8fHww" alt="">
+                        <div class="review-details">
+                            <h3 class="review-name">REBEKAH MAIKAELSON</h3>
+                            <p class="review-comment">Lorem ipsum dolor sit amet.</p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <img src="https://images.unsplash.com/photo-1494790108377-be9c29b29330?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8NHx8cGVvcGxlfGVufDB8fDB8fHww" alt="">
+                        <div class="review-details">
+                            <h3 class="review-name">HAILEY DOE</h3>
+                            <p class="review-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus,
+                                dolorem ex quod omnis ea saepe quidem voluptates iste, repudiandae, sit alias atque
+                                sapiente id at hic dolores.</p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <img src="https://images.unsplash.com/photo-1534528741775-53994a69daeb?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8M3x8cGVvcGxlfGVufDB8fDB8fHww" alt="">
+                        <div class="review-details">
+                            <h3 class="review-name">FLORANCE MAIDEN</h3>
+                            <p class="review-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit. Ipsum
+                                dignissimos fugit neque sit vel a quas totam tempora ratione!</p>
+                        </div>
+                    </div>
+                    <div class="review-item">
+                        <img src="https://images.unsplash.com/photo-1712847333453-740d9665aa5d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxzZWFyY2h8MXx8cGVvcGxlfGVufDB8fDB8fHww" alt="">
+                        <div class="review-details">
+                            <h3 class="review-name">UIDELI.COM</h3>
+                            <p class="review-comment">Lorem ipsum dolor sit amet consectetur adipisicing elit.
+                                Voluptates eius eaque incidunt.</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- social -->
+        <div id="social" class="social">
+            <div class="social-images">
+                <img src="/images/jos_burger/footer_1.jpg" alt="">
+                <img src="/images/jos_burger/footer_2.jpg" alt="">
+                <img src="/images/jos_burger/footer_4.jpg" alt="">
+                <img src="/images/jos_burger/footer_3.jpg" alt="">
+                <button>FOLLOW US <br> ON <br> INSTAGRAM </button>
+            </div>
+
+            <div class="social-text">
+                <div>
+                    <h2 class="social-title">JO'S</h2>
+                    <p class="social-info">SUBSCRIBE TO OUR NEWSLETTER</p>
+
+                    <p class="social-info">By subscribing to our newsletter, you will recive the latest tips, and
+                        promotions about out products and services straight to your inbox.</p>
+
+                    <div class="social-email-input">
+                        <input type="email" placeholder="Enter your email">
+                        <button>SUBSCRIBE</button>
+                    </div>
+
+                    <ul class="social-text-list">
+                        <li>PRIVACY</li>
+                        <li>TERMS</li>
+                        <li>ACCESIBILITY</li>
+                    </ul>
+                </div>
+
+                <ul class="social-list-items">
+                    <li><a href="#about" data-target="about">ABOUT</a></li>
+                    <li><a href="#menu" data-target="menu">MENU</a></li>
+                    <li><a href="#reviews" data-target="reviews">REVIEWS</a></li>
+                    <li><a href="#social" data-target="social">SOCIAL</a></li>
+                </ul>
+            </div>
+        </div>
+    </main>
+
+    <script src="main.js"></script>
+</body>
+
+</html>
